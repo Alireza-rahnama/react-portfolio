@@ -15,10 +15,10 @@ function Hero() {
         <BackgroundSquares/>
         <motion.img 
         animate={{scale: [1,0.8,1.5,0.8,1]}}
-        transition={{duration: 3}}
+        transition={{duration: 1.5}}
         src={hero} 
         alt="image" 
-        className='relative h-40 w-40 rounded-lg object-cover bg-[#2f2d2d]'/>
+        className='relative h-32 w-32 rounded-3xl object-cover bg-[#2f2d2d]'/>
         <div className='z-20'>
             <h2 className='text-sm uppercase pb-2 tracking-[9px]'>Software Developer</h2>
             <h1 className='text-3xl text-white'>
