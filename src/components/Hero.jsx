@@ -1,5 +1,5 @@
 import {Cursor, useTypewriter} from 'react-simple-typewriter'
-import BackgroundCircles from './BackgroundCircles'
+import BackgroundSquares from './BackgroundSquares'
 import { motion } from 'framer-motion'
 import hero from '../projects-images-videos/images/hero.png'
 
@@ -12,13 +12,13 @@ function Hero() {
     })
   return (
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center'>
-        <BackgroundCircles/>
+        <BackgroundSquares/>
         <motion.img 
         animate={{scale: [1,0.8,1.5,0.8,1]}}
         transition={{duration: 3}}
         src={hero} 
         alt="image" 
-        className='relative h-32 w-32 rounded-full object-cover bg-[#2f2d2d]'/>
+        className='relative h-40 w-40 rounded-lg object-cover bg-[#2f2d2d]'/>
         <div className='z-20'>
             <h2 className='text-sm uppercase pb-2 tracking-[9px]'>Software Developer</h2>
             <h1 className='text-3xl text-white'>
