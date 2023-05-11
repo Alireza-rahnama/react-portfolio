@@ -3,8 +3,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Skill from './Skill'
 import "swiper/css";
 import pandas from "../images/pandas.svg"
-import rust from "../images/rust.svg"
-import nexjs from "../images/nextjs-icon.svg"
 import aws from "../images/aws-svgrepo-com.svg"
 import springboot from '../projects-images-videos/images/spring-boot-svgrepo-com.svg'
 

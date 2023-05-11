@@ -13,7 +13,7 @@ function Contact() {
     <div className="h-screen flex flex-col relative text-center max-w-7xl px-10 space-y-12 justify-center items-center mx-auto">
         <h3 className="absolute top-24 pl-2 uppercase tracking-[20px]">Contact</h3>
         <div className="relative pt-10 flex flex-col top-8">
-            <h4 className="text-lg font-semibold">If you like what you see and want to work together, send me a message.</h4>
+            <h4 className="text-lg font-semibold">Get in touch!</h4>
         </div>
         <motion.div 
         initial={{x: -200}}

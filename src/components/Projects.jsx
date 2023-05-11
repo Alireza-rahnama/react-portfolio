@@ -24,18 +24,12 @@ const Projects = () => {
                         <motion.div 
                         initial={{opacity: 0, y: -200}}
                         whileInView={{opacity: 1, y:0}}
-                        whileHover={{scale: 1.1}}
+                        whileHover={{scale: 1.5}}
                         className="relative group" //Using group class to apply hover effects to th entire group
                         transition={{duration: 0.25, opacity: {duration: 1}, y:{duration: 1}}}>
                             <img className=" rounded-xl group-hover:opacity-50" src={project.source} style={{width: 650, }}/>
                             <div className="absolute inset-0 hidden group-hover:inline-block max-h-[98%] rounded-xl group-hover:transition group-hover:ease-in-300">
                                 <div className="flex items-center justify-center h-full gap-6">
-                                    <a href={project.demo_url} target="_blank" rel="noreferrer">
-                                        <button className="flex items-center justify-center gap-2 bg-blue-500 rounded-full w-24 h-10 text-white">
-                                            <AiOutlineGlobal className="text-xl"/>
-                                            <h1>Demo</h1>
-                                        </button>
-                                    </a> 
                                     <a href={project.git_url} target="_blank" rel="noreferrer">
                                         <button className="flex items-center justify-center gap-2 bg-blue-500 rounded-full w-24 h-10 text-white">
                                             <AiOutlineGithub className="text-xl"/>
