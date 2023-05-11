@@ -16,7 +16,7 @@ function Hero() {
         <motion.img 
         animate={{scale: [1,0.8,1.5,0.8,1]}}
         transition={{duration: 3}}
-        src="#" 
+        src={hero} 
         alt="image" 
         className='relative h-32 w-32 rounded-full object-cover bg-[#2f2d2d]'/>
         <div className='z-20'>

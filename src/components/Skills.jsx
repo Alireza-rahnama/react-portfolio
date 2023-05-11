@@ -35,7 +35,7 @@ function Skills() {
           </SwiperSlide>
           <SwiperSlide className="px-32">
             <div className="grid-cols-2 relative px-2 grid md:grid-cols-4 md:top-30 xl:top-10 top-40 gap-8 max-w-fit mx-auto">
-              <Skill name="Gitlab" url="https://www.svgrepo.com/show/448226/gitlab.svg"/> 
+              <Skill name="GitHub" url="https://www.svgrepo.com/show/512317/github-142.svg"/> 
               <Skill directionLeft={true} name="Pandas" url={pandas}/> 
               <Skill directionLeft={true} name="Scikit-learn" url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/390px-Scikit_learn_logo_small.svg.png?20180808062052"/> 
               <Skill directionLeft={true} name="Tailwind CSS" url="https://www.svgrepo.com/show/354431/tailwindcss-icon.svg"/> 
