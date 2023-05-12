@@ -6,7 +6,7 @@ import hero from '../projects-images-videos/images/hero.png'
 
 function Hero() {
     const [text, count] = useTypewriter({
-        words: ["Hi, I'm Ali!", "Passionate Software Developer", "AI Enthusiast"],
+        words: ["Hi, I'm Ali!", "Passionate Software Developer", "Cloud Developer", "AI Enthusiast"],
         loop: true,
         delaySpeed: 3000,
     })

@@ -11,6 +11,7 @@ function Skills() {
     <motion.div className="h-screen flex flex-col relative text-center md:text-left
     xl:flex-row max-w-[2000px] xl:px-10 justify-center items-center xl:space-y-0 mx-auto">
       <h3 className="absolute top-24 pl-2 uppercase tracking-[20px]">Skills</h3>
+
       <h2 className="absolute top-36">Swipe or Drag icons to the left to see more &rarr; </h2>
       <div className="flex justify-center w-[100%]">
         <Swiper
@@ -18,7 +19,7 @@ function Skills() {
           <SwiperSlide>
             <div className="grid-cols-2 relative px-2 grid md:grid-cols-4 md:top-30 xl:top-10 top-40 gap-8 max-w-fit mx-auto">
               <Skill directionLeft={true} name="Java" url="https://www.svgrepo.com/show/452234/java.svg" />
-              <Skill directionLeft={true} name="Spring Boot" url={springboot} />
+              <Skill directionLeft={true} name="SpringBoot" url={springboot} />
               <Skill directionLeft={true} name="Python" url="https://www.svgrepo.com/show/452091/python.svg" />
               <Skill directionLeft={true} name="PostgreSQL" url="https://www.svgrepo.com/show/354200/postgresql.svg" />
               <Skill directionLeft={true} name="MongoDB" url="https://www.svgrepo.com/show/331488/mongodb.svg" />

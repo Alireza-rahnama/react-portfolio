@@ -20,8 +20,9 @@ export default function Header() {
                 }}
                 className="flex items-center">
                 {/* Social icons */}
-                <SocialIcon url="https://www.linkedin.com/in/alirezarahnama-dev/" fgColor="white" bgColor="transparent" />
-                <SocialIcon url="https://github.com/alireza-rahnama/" fgColor="white" bgColor="transparent" />
+                <SocialIcon url="https://www.linkedin.com/in/alirezarahnama-dev/" target="_blank" fgColor="white" bgColor="transparent" />
+                <SocialIcon url="https://github.com/alireza-rahnama/" target= "_blank" fgColor="white" bgColor="transparent" />
+                <SocialIcon url="https://twitter.com/AlirezaRahnam17" target="_blank" fgColor="white" bgColor="transparent" />
             </motion.div>
             <a href="#contact">
                 <motion.div initial={{
