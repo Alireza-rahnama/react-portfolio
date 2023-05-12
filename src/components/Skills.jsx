@@ -11,6 +11,7 @@ function Skills() {
     <motion.div className="h-screen flex flex-col relative text-center md:text-left
     xl:flex-row max-w-[2000px] xl:px-10 justify-center items-center xl:space-y-0 mx-auto">
       <h3 className="absolute top-24 pl-2 uppercase tracking-[20px]">Skills</h3>
+      {/* <h3 className="absolute top-0 md:top-24 lg:top-32 uppercase tracking-wider md:tracking-[20px] lg:tracking-[30px] md:pl-8 lg:pl-12 w-full">About</h3> */}
 
       <h2 className="absolute top-36">Swipe or Drag icons to the left to see more &rarr; </h2>
       <div className="flex justify-center w-[100%]">
