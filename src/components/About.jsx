@@ -33,7 +33,7 @@ function About() {
         className="relative top-20">
         <div className="absolute inset-0 bg-blue-600 blur rounded-lg"></div>
         <button
-          className="relative bg-[#12010f] text-[#d2d1d1] hover:text-white px-5 py-2 rounded-full"><a href="https://drive.google.com/uc?export=download&id=16d1L187ZgMzFEe3TwRPcAPmBwRlh-s6R">Resume</a>
+          className="relative bg-[#12010f] text-[#d2d1d1] hover:text-white px-5 py-2 rounded-full"><a target="_blank" href="src/assets/AlirezaRahnamaResume.pdf">Resume</a>
         </button>
       </motion.div>
     </div>

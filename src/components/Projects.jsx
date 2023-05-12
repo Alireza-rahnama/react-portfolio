@@ -40,6 +40,7 @@ const Projects = () => {
                                 </div>
                             </motion.div>
                             <h4 className="text-[#dadada] max-w-[600px] text-center font-semibold p-2">
+                                <span className="font-bold text-blue-500 text-xl">{project.name}</span>
                                 <span>{project.desc} </span>
                                 <span>
                                     {project.url && <a href={project.url} class="text-blue-500 underline hover:underline">Link to Legacy Portfolio</a>}
