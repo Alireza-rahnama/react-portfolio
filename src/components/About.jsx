@@ -3,10 +3,8 @@ import {motion} from "framer-motion"
 function About() {
   return (
     <div className="h-screen flex flex-col relative text-center
-    max-w-3xl px-10 justify-center items-center mx-auto">
-      {/* <h3 className="absolute top-24 uppercase tracking-[20px] pl-8">About</h3> */}
+    max-w-3xl px-10 justify-center items-center mx-auto">      
       <h3 className="absolute top-0 md:top-24 lg:top-32 uppercase tracking-wider md:tracking-[20px] lg:tracking-[30px] md:pl-8 lg:pl-12 w-full">About</h3>
-
       <motion.h4 
         initial={{ opacity: 0, y:300 }}
         whileInView={{ opacity: 1, y:0 }}
