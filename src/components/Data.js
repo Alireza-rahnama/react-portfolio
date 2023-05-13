@@ -35,7 +35,7 @@ const data = [
     },
     {
         source: threshold,
-        name:"Threshold Vision",
+        name:"Pixel Wizard",
         desc: ": Implemented thresholding image processing technique to extract the area of interest in an input image via core Java. Hover over image to see demo or github repo. Hover over image to checkout the github repo.",
         git_url: "https://github.com/Alireza-rahnama/image-processing-core-java/tree/main/threshold_gui"
     },
