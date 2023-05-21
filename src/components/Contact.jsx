@@ -23,7 +23,7 @@ function Contact() {
             <div className="space-y-4">
                 <div className="flex items-center justify-center">
                     <BsFillTelephoneFill className="text-[#2a78d1] h-5 w-5 animate-pulse"/>
-                    <p className="px-6">(709) 730-1240</p>
+                    <p className="px-6">(709) 327-7030</p>
                 </div>
                 <div className="flex items-center justify-center">
                     <MdEmail className="text-[#2a78d1] h-5 w-5 animate-pulse"/>
