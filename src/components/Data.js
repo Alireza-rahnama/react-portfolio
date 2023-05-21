@@ -12,7 +12,7 @@ const data = [
     {
         source: movies,
         name:"Movies APP",
-        desc: ": Developed an end-to-end web application featuring a RESTful API leveraging Java Spring Boot and MongoDB Atlas for back-end and react.js for the front-end. Hover over image to checkout the github repo. ",
+        desc: ": Developed an end-to-end web application utilizing MVC design pattern, featuring a RESTful API leveraging Java Spring Boot and MongoDB Atlas for back-end and react.js for the front-end. Hover over image to checkout the github repo. ",
         git_url: "https://github.com/Alireza-rahnama/movies-back-end-spring-boot-mongod-db"
     },
     {
@@ -29,7 +29,7 @@ const data = [
     },
     {
         source: histogram,
-        name:"Histogram Vision",
+        name:"Pixel Wizard",
         desc: ": Implemented a set of image processing techniques including Histogram, Aggressive Stretch and Equalizer via core Java. Hover over image to checkout the github repo.",
         git_url: "https://github.com/Alireza-rahnama/image-processing-core-java/tree/main/histogram_gui"
     },
