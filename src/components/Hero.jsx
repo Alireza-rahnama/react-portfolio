@@ -2,7 +2,7 @@ import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import BackgroundSquares from './BackgroundSquares'
 import { motion } from 'framer-motion'
 import hero from '../projects-images-videos/images/hero.png'
-
+import profile from '../projects-images-videos/images/profile.png'
 
 function Hero() {
     const [text, count] = useTypewriter({
@@ -16,9 +16,9 @@ function Hero() {
             <motion.img
                 animate={{ scale: [1, 0.8, 1.5, 0.8, 1] }}
                 transition={{ duration: 1.5 }}
-                src={hero}
+                src={profile}
                 alt="image"
-                className='relative h-32 w-32 rounded-full object-cover bg-[#2f2d2d]' />
+                className='relative h-64 w-64 rounded-full object-cover bg-[#2f2d2d]' />
             <div className='z-20'>
                 <h2 className='text-sm uppercase pb-2 tracking-[9px]'>Software Developer</h2>
                 <h1 className='text-xl text-white'>
