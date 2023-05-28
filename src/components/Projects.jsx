@@ -24,7 +24,7 @@ const Projects = () => {
                             <motion.div
                                 initial={{ opacity: 0, y: -200 }}
                                 whileInView={{ opacity: 1, y: 0 }}
-                                whileHover={{ scale: 1.5 }}
+                                whileHover={{ scale: 1.15 }}
                                 className="relative group" //Using group class to apply hover effects to th entire group
                                 transition={{ duration: 0.25, opacity: { duration: 1 }, y: { duration: 1 } }}>
                                 <img className=" rounded-xl group-hover:opacity-50" src={project.source} style={{ width: 650, }} />
