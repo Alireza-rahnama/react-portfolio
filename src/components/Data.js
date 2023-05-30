@@ -42,7 +42,7 @@ const data = [
     {
         source: shapeDetector,
         name:"Shape Detector",
-        desc: ": Implemented Hough Transform to detect simple shapes such as circles and lines in an input image via core Java. Hover over image to see demo or github repo. Hover over image to checkout the github repo.",
+        desc: ": Implemented Hough Transform to detect simple shapes such as circles and lines in an input image via core Java. Hover over image to checkout the github repo.",
         git_url: "https://github.com/Alireza-rahnama/image-processing-core-java/tree/main/threshold_gui"
     },
     {
