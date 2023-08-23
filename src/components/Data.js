@@ -12,13 +12,13 @@ const data = [
     {
         source: movies,
         name:"Movies APP",
-        desc: ": Developed an end-to-end web application utilizing MVC design pattern, featuring a RESTful API leveraging Java Spring Boot and MongoDB Atlas for back-end and react.js for the front-end. Hover over image to checkout the github repo. ",
+        desc: ": An end-to-end web app utilizing MVC design pattern, featuring a RESTful API leveraging Java Spring Boot, MongoDB Atlas, react.js, Docker, AWS ECS, and AWS CloudWatch. Hover over image to checkout the github repo. ",
         git_url: "https://github.com/Alireza-rahnama/movies-back-end-spring-boot-mongod-db"
     },
     {
         source: reminderapp,
         name:"Reminder App",
-        desc: ": Built a full-stack React.js app to manage tasks from a JSON file. Containerized with Docker and established CI/CD pipelines by GitHub and AWS Amplify. Hover over image to checkout the github repo.",
+        desc: ": A full-stack React.js app to manage tasks from a JSON file. Containerized with Docker and established CI/CD pipelines via GitHub and AWS Amplify. Hover over image to checkout the github repo.",
         git_url: "https://github.com/Alireza-rahnama/ReminderApp-react-application"
     },
     {
