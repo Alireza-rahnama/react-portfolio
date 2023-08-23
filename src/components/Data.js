@@ -1,4 +1,4 @@
-import rutter from '../projects-images-videos/images/movies.png'
+import rutter from '../projects-images-videos/images/rutter.gif'
 import movies from '../projects-images-videos/images/movies.png'
 import reminderapp from '../projects-images-videos/images/reminderapp.png'
 import javaarcade from '../projects-images-videos/images/kingdomino.png'
@@ -19,13 +19,13 @@ const data = [
     {
         source: movies,
         name:"Movies APP",
-        desc: ": An end-to-end web app utilizing MVC design pattern, featuring a RESTful API leveraging Java Spring Boot, MongoDB Atlas, react.js, Docker, AWS ECS, and AWS CloudWatch. Hover over image to checkout the github repo. ",
+        desc: ": Deployed an end-to-end web app utilizing MVC design pattern, featuring a RESTful API leveraging Java Spring Boot, MongoDB Atlas, react.js, Docker, AWS ECS, and AWS CloudWatch. Hover over image to checkout the github repo. ",
         git_url: "https://github.com/Alireza-rahnama/movies-back-end-spring-boot-mongod-db"
     },
     {
         source: reminderapp,
         name:"Reminder App",
-        desc: ": A full-stack React.js app to manage tasks from a JSON file. Containerized with Docker and established CI/CD pipelines via GitHub and AWS Amplify. Hover over image to checkout the github repo.",
+        desc: ": Developed a full-stack React.js app to manage tasks from a JSON file. Containerized with Docker and established CI/CD pipelines via GitHub and AWS Amplify. Hover over image to checkout the github repo.",
         git_url: "https://github.com/Alireza-rahnama/ReminderApp-react-application"
     },
     {
