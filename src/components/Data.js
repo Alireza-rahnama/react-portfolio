@@ -13,7 +13,7 @@ const data = [
     {
         source: rutter,
         name:"Azure Cloud Infrastructure Benchmarking Application",
-        desc: ": architect a multithread application to emulate Rutter Inc.’s radar systems and Sigma S6 software suite, analyzed the Azure Container Instances performance to improve system efficiency using Java, C#, Maven, MongoDB, gRPC, Protobuf. ",
+        desc: ": Architected a multithread application to emulate Rutter Inc.’s radar systems and Sigma S6 software suite, analyzed the Azure Container Instances performance to improve system efficiency using Java, C#, Maven, MongoDB, gRPC, Protobuf. ",
         git_url: "https://github.com/Alireza-rahnama/benchmarking_final_product"
     },
     {
