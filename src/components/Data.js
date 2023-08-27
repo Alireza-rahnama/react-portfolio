@@ -1,4 +1,5 @@
 import rutter from '../projects-images-videos/images/rutter.gif'
+import vinesight from '../projects-images-videos/images/vinesight.gif'
 import movies from '../projects-images-videos/images/movies.png'
 import reminderapp from '../projects-images-videos/images/reminderapp.png'
 import javaarcade from '../projects-images-videos/images/kingdomino.png'
@@ -23,16 +24,22 @@ const data = [
         git_url: "https://github.com/Alireza-rahnama/benchmarking_final_product"
     },
     {
-        source: reminderapp,
-        name:"Reminder App",
-        desc: ": Developed a full-stack React.js app to manage tasks from a JSON file. Containerized with Docker and established CI/CD pipelines via GitHub and AWS Amplify. Hover over image to checkout the github repo.",
-        git_url: "https://github.com/Alireza-rahnama/ReminderApp-react-application"
-    },
-    {
         source: javaarcade,
         name:"Java Arcade",
         desc:": Designed and implemented 2 Java GUI games:  King Domino & Mind the Gap. Hover over image to checkout the github repo.",
         git_url: "https://github.com/Alireza-rahnama/Java-Arcade-OOP-Java-Codes-"
+    },
+    {
+        source: vinesight,
+        name:"VineSight",
+        desc: ": Created a wine recommendation system using C#, .NET, and MongoDB; Integrated web scraping via Google Custom Search API to populate the database with wine bottle image URLs. The app provides insight on top rated wines based on different cahracteristics, type, and name.",
+        git_url: "https://github.com/Alireza-rahnama/c-sharp-practice"
+    },
+    {
+        source: reminderapp,
+        name:"Reminder App",
+        desc: ": Developed a full-stack React.js app to manage tasks from a JSON file. Containerized with Docker and established CI/CD pipelines via GitHub and AWS Amplify. Hover over image to checkout the github repo.",
+        git_url: "https://github.com/Alireza-rahnama/ReminderApp-react-application"
     },
     {
         source: histogram,
@@ -54,7 +61,7 @@ const data = [
     },
     {
         source: randomforest,
-        name:"Dta Science/ Machine Learning projects",
+        name:"Data Science/ Machine Learning projects",
         desc: ": Launched and evaluated several data science projects to classify bioinformatics data, label clothing items, and predict automobile pricing using KNN, Random Forest, XGBoost, Lasso, Linear and Logistic Regression, and Tensor Flow models. Hover over image to checkout the github repo.",
         git_url: "https://github.com/Alireza-rahnama/Data-Scienece-Machine-Learning"
     },
