@@ -9,8 +9,15 @@ import threshold from '../projects-images-videos/images/threshold.png'
 import randomforest from '../projects-images-videos/images/randomforest.png'
 import portfoliov1 from '../projects-images-videos/images/portfoliov1.png'
 import portfoliov2 from '../projects-images-videos/images/portfoliov2.png'
+import rio from '../projects-images-videos/images/demo.gif'
 
 const data = [
+    {
+        source: rio,
+        name:"One Day City Explorer Mobile App",
+        desc: ": Developed a mobile app leveraging Flutter and Dart",
+        git_url: "https://github.com/Alireza-rahnama/flutter-mobile-app-city-explorer"
+    },
     {
         source: movies,
         name:"Movies APP",
