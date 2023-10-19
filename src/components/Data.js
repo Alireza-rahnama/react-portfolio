@@ -9,7 +9,7 @@ import threshold from '../projects-images-videos/images/threshold.png'
 import randomforest from '../projects-images-videos/images/randomforest.png'
 import portfoliov1 from '../projects-images-videos/images/portfoliov1.png'
 import portfoliov2 from '../projects-images-videos/images/portfoliov2.png'
-import rio from '../projects-images-videos/images/rio.gif'
+import rio from '../projects-images-videos/images/janiro.gif'
 
 const data = [
     {
