@@ -17,7 +17,7 @@ const data = [
         source: diary,
         name:"Dear Diary",
         desc: ": Developed a cross-platform mobile app allowing users to persist data and perform CRUD operations, filter entries by month, and export entries to pdf file leveraging Dart, Flutter, and Hive. Hover over image to checkout the github repo.",
-        git_url: "https://github.com/Alireza-rahnama/flutter-mobile-app-city-explorer"
+        git_url: "https://github.com/Alireza-rahnama/dear_diary_flutter_hive_app"
     },
     {
         source: rio,
