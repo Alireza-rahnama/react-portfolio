@@ -10,8 +10,15 @@ import randomforest from '../projects-images-videos/images/randomforest.png'
 import portfoliov1 from '../projects-images-videos/images/portfoliov1.png'
 import portfoliov2 from '../projects-images-videos/images/portfoliov2.png'
 import rio from '../projects-images-videos/images/janiro.gif'
+import diary from '../projects-images-videos/images/dear-diary.gif'
 
 const data = [
+    {
+        source: diary,
+        name:"Dear Diary",
+        desc: ": Developed a cross-platform mobile app allowing users to persist data and perform CRUD operations, filter entries by month, and export entries to pdf file leveraging Dart, Flutter, and Hive. Hover over image to checkout the github repo.",
+        git_url: "https://github.com/Alireza-rahnama/flutter-mobile-app-city-explorer"
+    },
     {
         source: rio,
         name:"Rio Travel Advisor",
