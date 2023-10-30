@@ -18,7 +18,7 @@ const data = [
         source: diaryWithFirebase,
         name:"Dear Diary With Authentication and DataBase Integration",
         desc: ": Developed a cross-platform mobile app implementing full authentication and enable users to persist diary entries in NoSQL format in Firestore database, search/filter entreis by keyword and/or by month, upload images from phone to cloud Storage, and export entries to pdf file leveraging Dart, Flutter, Firebase Fire Store and Authentication. Hover over image to checkout the github repo.",
-        git_url: "https://github.com/Alireza-rahnama/dear_diary_flutter_hive_app"
+        git_url: "https://github.com/Alireza-rahnama/dear_diary_with_cloud_firebase_authentication_database_storage"
     },
     {
         source: diary,
