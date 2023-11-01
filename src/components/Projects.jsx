@@ -10,9 +10,12 @@ import data from "./Data"
 const Projects = () => {
 
     return (
-        <div className='md:h-screen flex flex-col justify-evenly items-center relative md:mt-0 mt-32'>
-            {/* <h1 className='md:relative pb-5 xl:top-28 text-center uppercase text-4xl tracking-[20px]'>Projects</h1> */}
-            <h3 className="relative md:absolute pt-50 md:top-24 pl-2 text-center uppercase pb-5 text-4xl tracking-[20px]">Projects</h3>
+        // <div className='md:h-screen flex flex-col justify-evenly items-center relative md:mt-0 mt-32'>
+        //     {/* <h1 className='md:relative pb-5 xl:top-28 text-center uppercase text-4xl tracking-[20px]'>Projects</h1> */}
+        //     <h3 className="relative pt-50 md:top-24 pl-2 text-center uppercase text-4xl tracking-[20px]">Projects</h3>
+        <div className="md:h-screen flex flex-col relative text-center max-w-7xl px-10 space-y-12 justify-center items-center mx-auto mt-32">
+        {/* <h3 className="relative pt-50 top-24 pl-2 uppercase text-4xl tracking-[20px]">Projects</h3> */}
+        <h3 className="absolute pb-2 top-24 pl-2 uppercase text-4xl tracking-[20px]">Projects</h3>
             <div className="w-full absolute top-[30%] bg-[#afafaf]/10 left-0 h-[400px] -skew-y-12" />
             <div className='relative w-full flex'>
                 <Swiper
