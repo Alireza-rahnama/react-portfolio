@@ -8,17 +8,17 @@ import springboot from '../projects-images-videos/images/spring-boot-svgrepo-com
 
 function Skills() {
   return (
-    <motion.div className="hidden md:h-screen md:flex flex-col relative text-center md:text-left
-    xl:flex-row min-w-[640px] max-w-[2000px] xl:px-10 justify-center items-center xl:space-y-0 mx-auto">
+    <motion.div className="md:h-screen flex flex-col relative text-center
+    xl:flex-row max-w-[2000px] xl:px-10 justify-center items-center xl:space-y-0 mx-auto">
       <h3 className="absolute top-24 pl-2 uppercase pb-5 text-4xl tracking-[20px]">Skills</h3>
       {/* <h3 className="absolute top-0 md:top-24 lg:top-32 uppercase tracking-wider md:tracking-[20px] lg:tracking-[30px] md:pl-8 lg:pl-12 w-full">About</h3> */}
 
       <h2 className="absolute top-36">Swipe or Drag icons to the left to see more &rarr; </h2>
       <div className="flex justify-center w-[100%]">
         <Swiper
-          className="mySwiper max-w-[1100px] min-h-[700px] top-10 absolute xl:top-36">
+          className="mySwiper md:max-w-[1100px] md:min-h-[800px] top-10 relative xl:top-36">
           <SwiperSlide>
-            <div className="min-width-[100px] grid-cols-2 relative px-2 grid md:grid-cols-4 md:top-30 xl:top-10 top-40 gap-8 max-w-fit mx-auto">
+            <div className="grid-cols-2 relative px-2 grid md:grid-cols-4 md:top-30 xl:top-10 top-40 gap-8 max-w-fit mx-auto">
               <Skill directionLeft={true} name="Java" url="https://www.svgrepo.com/show/452234/java.svg" />
               <Skill directionLeft={true} name="SpringBoot" url={springboot} />
               <Skill directionLeft={true} name="Python" url="https://www.svgrepo.com/show/452091/python.svg" />
@@ -42,8 +42,7 @@ function Skills() {
               <Skill name="Justinmind" url="https://www.svgrepo.com/show/354987/figma.svg" />
               <Skill name="Docker" url="https://www.svgrepo.com/show/373553/docker.svg" />
               <Skill name="Databricks" url="https://www.svgrepo.com/show/330261/databricks.svg" />
-              <Skill name="Postman API" url="https://www.svgrepo.com/show/354202/postman-icon.svg
-"/>
+              <Skill name="Postman API" url="https://www.svgrepo.com/show/354202/postman-icon.svg"/>
             </div>
           </SwiperSlide>
         </Swiper>
