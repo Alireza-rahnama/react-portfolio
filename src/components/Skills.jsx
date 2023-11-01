@@ -9,8 +9,8 @@ import springboot from '../projects-images-videos/images/spring-boot-svgrepo-com
 function Skills() {
   return (
     <motion.div className="md:h-screen flex flex-col relative text-center
-    xl:flex-row max-w-[2000px] xl:px-10 justify-center items-center xl:space-y-0 mx-auto">
-      <h3 className="absolute top-24 pl-2 uppercase pb-5 text-4xl tracking-[20px]">Skills</h3>
+    xl:flex-row max-w-[2000px] xl:px-10 justify-center items-center xl:space-y-0 mx-auto mt-32">
+      <h3 className="absolute top-24 pl-2 uppercase text-4xl tracking-[20px]">Skills</h3>
       {/* <h3 className="absolute top-0 md:top-24 lg:top-32 uppercase tracking-wider md:tracking-[20px] lg:tracking-[30px] md:pl-8 lg:pl-12 w-full">About</h3> */}
 
       <h2 className="absolute top-36">Swipe or Drag icons to the left to see more &rarr; </h2>

@@ -11,7 +11,7 @@ function Contact() {
   };
 
   return (
-    <div className="md:h-screen flex flex-col relative text-center max-w-7xl px-10 space-y-12 justify-center items-center mx-auto">
+    <div className="md:h-screen flex flex-col relative text-center max-w-7xl px-10 space-y-12 justify-center items-center mx-auto mt-32">
       <h3 className="relative pt-50 top-24 pl-2 uppercase text-4xl tracking-[20px]">Contact</h3>
       <div className="relative pt-10 flex flex-col top-8">
         <h4 className="text-lg font-semibold">Get in touch</h4>
