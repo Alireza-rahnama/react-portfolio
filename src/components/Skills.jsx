@@ -16,7 +16,7 @@ function Skills() {
       <h2 className="absolute top-36">Swipe or Drag icons to the left to see more &rarr; </h2>
       <div className="flex justify-center w-[100%]">
         <Swiper
-          className="mySwiper md:max-w-[1100px] md:min-h-[800px] top-10 relative xl:top-36">
+          className="mySwiper sm:min-h-[950px] md:max-w-[1100px] md:min-h-[800px] top-10 relative xl:top-36">
           <SwiperSlide>
             <div className="grid-cols-2 relative px-2 grid md:grid-cols-4 md:top-30 xl:top-10 top-40 gap-8 max-w-fit mx-auto">
               <Skill directionLeft={true} name="Java" url="https://www.svgrepo.com/show/452234/java.svg" />
@@ -33,7 +33,7 @@ function Skills() {
               <Skill name="AWS" url={aws} />
             </div>
           </SwiperSlide>
-          <SwiperSlide className="px-32">
+          <SwiperSlide className="px-32 sm:min-h-[950px]">
             <div className="grid-cols-2 relative px-2 grid md:grid-cols-4 md:top-30 xl:top-10 top-40 gap-8 max-w-fit mx-auto">
               <Skill name="GitHub" url="https://www.svgrepo.com/show/512317/github-142.svg" />
               <Skill directionLeft={true} name="Pandas" url={pandas} />
