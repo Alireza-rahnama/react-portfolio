@@ -10,7 +10,7 @@ import data from "./Data"
 const Projects = () => {
 
     return (
-        <div className='md:h-screen flex flex-col justify-evenly items-center relative overflow-y-hidden md:mt-0 mt-32'>
+        <div className='md:h-screen flex flex-col justify-evenly items-center relative md:mt-0 mt-32'>
             <h1 className='md:relative pb-5 top-28 xl:top-28 text-center uppercase text-4xl tracking-[20px]'>Projects</h1>
             <div className="w-full absolute top-[30%] bg-[#afafaf]/10 left-0 h-[400px] -skew-y-12" />
             <div className='relative w-full flex'>
