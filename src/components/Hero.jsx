@@ -25,7 +25,7 @@ function Hero() {
                     <span >{text}</span>
                     <Cursor cursorColor='#e01ceb' />
                 </h1>
-                <div className='pt-5'>
+                <div className='pt-5 pb-20'>
                     <a href="#about">
                         <button className='heroButton'>About</button>
                     </a>
