@@ -11,7 +11,7 @@ import portfoliov1 from '../projects-images-videos/images/portfoliov1.png'
 import portfoliov2 from '../projects-images-videos/images/portfoliov2.png'
 import rio from '../projects-images-videos/images/janiro.gif'
 import diary from '../projects-images-videos/images/dear-diary.gif'
-import diaryWithFirebase from '../projects-images-videos/images/dear-diary-final.gif'
+import diaryWithFirebase from '../projects-images-videos/images/dear-diary-final_V1.gif'
 
 const data = [
     {
