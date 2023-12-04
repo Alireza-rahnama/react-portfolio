@@ -12,8 +12,14 @@ import portfoliov2 from '../projects-images-videos/images/portfoliov2.png'
 import rio from '../projects-images-videos/images/janiro.gif'
 import diary from '../projects-images-videos/images/dear-diary.gif'
 import diaryWithFirebase from '../projects-images-videos/images/dear-diary-final_V1.gif'
-
+import serviceSquad from '../projects-images-videos/images/serviceSquad.gif'
 const data = [
+    {
+        source: serviceSquad,
+        name:"ServiceSquad",
+        desc: ": A cross-platform mobile marketplace to connect individual service providers with clients. It is implementing full authentication (Registration, Sign-in and Sign-out) and enabling service associates to post ads and persist data in cloud database, upload images to cloud storage, and view their bookings. It also allows clients to book a services, pay fees, write reviews and rate technicians, and message the technicians.",
+        git_url: "https://github.com/Alireza-rahnama/dear_diary_with_cloud_firebase_authentication_database_storage"
+    },
     {
         source: diaryWithFirebase,
         name:"Dear Diary With Authentication and DataBase Integration",
