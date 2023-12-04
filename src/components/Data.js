@@ -18,7 +18,7 @@ const data = [
         source: serviceSquad,
         name:"ServiceSquad",
         desc: ": A cross-platform mobile marketplace to connect individual service providers with clients. It is implementing full authentication (Registration, Sign-in and Sign-out) and enabling service associates to post ads and persist data in cloud database, upload images to cloud storage, and view their bookings. It also allows clients to book a services, pay fees, write reviews and rate technicians, and message the technicians.",
-        git_url: "https://github.com/Alireza-rahnama/dear_diary_with_cloud_firebase_authentication_database_storage"
+        git_url: "https://github.com/Alireza-rahnama/ServiceSquadProject"
     },
     {
         source: diaryWithFirebase,
