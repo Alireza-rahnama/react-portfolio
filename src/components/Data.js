@@ -13,6 +13,7 @@ import rio from '../projects-images-videos/images/janiro.gif'
 import diary from '../projects-images-videos/images/dear-diary.gif'
 import diaryWithFirebase from '../projects-images-videos/images/dear-diary-final_V1.gif'
 import serviceSquad from '../projects-images-videos/images/serviceSquad.gif'
+import cryptoFinder from '../projects-images-videos/images/output-crypto.png'
 const data = [
     {
         source: serviceSquad,
@@ -98,6 +99,12 @@ const data = [
         name:"React Portfolio",
         desc: ": Developed a responsive react based portfolio leveraging tailwindcss, deployed on AWS Amplify and hosted on a third part Domain service provider. Hover over image to checkout the github repo. ",
         git_url: "https://github.com/Alireza-rahnama/react-portfolio"
+    },
+    {
+        source: cryptoFinder,
+        name:"CryptoFinder",
+        desc: ": This is a an application built using python implementing my investment strategy by finding crypto currencies on Binance Exchange around their 200 days simple moving average and finding their weekly potential returns in bullish markets. ",
+        git_url: "https://github.com/Alireza-rahnama/CryptoFinder"
     },
 ]
 
